@@ -7,7 +7,105 @@ Version: 1.0.0
 Text Domain: twentytwenty-child
 */
 
-html,
+
+
+/* Start Colors ------------------------------------ */
 body {
-  font-family: Arial, sans-serif;
+	background: #ffffff;
+	color: #000;
+}
+
+
+#site-header{
+	background-color: #ffffff!important;
+}
+
+body:not(.overlay-header) .primary-menu > li > a{
+	color: #000000!important;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#site-header .header-titles{
+	color: #ffffff!important;
+}
+
+.header-titles .site-logo{
+	padding-right: 10px;
+}
+
+.header-titles .header-titles-name{
+	padding-top: 10px;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.header-titles .header-titles-name a{
+	text-decoration: none;
+	color: #252A94;
+}
+
+.header-titles .header-titles-name a:hover {
+	text-decoration: none;
+}
+
+.header-titles .footer-titles-name a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.header-titles .footer-titles-name a:hover {
+	text-decoration: none;
+}
+
+.footer-menu a{
+	    color: #ffffff!important;
+}
+
+.menu-copyright a:focus,
+.menu-copyright a:hover {
+	text-decoration: none;
+}
+
+
+#site-footer .section-inner {
+	align-items: baseline;
+	display: flex;
+	justify-content: center;
+}
+
+#site-footer a:focus,
+#site-footer a:hover {
+	text-decoration: none;
+}
+
+/* END Colors ------------------------------------ */
+
+
+
+
+
+
+
+.primary-menu a:hover,
+.primary-menu a:focus,
+.primary-menu .current_page_ancestor {
+	text-decoration: none;
+}
+
+.primary-menu li.current-menu-item > a,
+.primary-menu li.current-menu-item > .link-icon-wrapper > a {
+	text-decoration: none;
+}
+
+.primary-menu li.current-menu-item > a:hover,
+.primary-menu li.current-menu-item > .link-icon-wrapper > a:hover,
+.primary-menu li.current-menu-item > a:focus,
+.primary-menu li.current-menu-item > .link-icon-wrapper > a:focus {
+	text-decoration: none;
+}
+
+.footer-menu a:hover,
+.footer-menu a:focus {
+	text-decoration: none;
 }
